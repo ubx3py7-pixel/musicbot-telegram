@@ -1,0 +1,123 @@
+#
+# Copyright (C) 2024 by Rishav@Github
+#
+# RishavMusicBot - Rebranded & Restyled by Rishav
+#
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+#        BOT COMMANDS
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+PING_COMMAND : ["ping"]
+START_COMMAND : ["start"]
+HELP_COMMAND : ["help"]
+SETTINGS_COMMAND : ["settings", "setting"]
+RELOAD_COMMAND : ["admincache", "reload"]
+GSTATS_COMMAND : ["gstats"]
+STATS_COMMAND : ["stats"]
+LANGUAGE_COMMAND : ["lang", "language", "langs"]
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+#        PLAY COMMANDS
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+PLAY_COMMAND : ["play", "vplay", "cplay", "cvplay", "playforce", "vplayforce", "cplayforce", "cvplayforce"]
+PLAYMODE_COMMAND : ["playmode"]
+CHANNELPLAY_COMMAND : ["channelplay"]
+STREAM_COMMAND : ["stream", "cstream", "streamforce"]
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+#       PLAYLIST COMMANDS
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+PLAYLIST_COMMAND : ["playlist"]
+DELETEPLAYLIST_COMMAND : ["deleteplaylist"]
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+#         TOOLS
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+QUEUE_COMMAND : ["queue", "cqueue", "player", "cplayer", "playing", "cplaying"]
+SONG_COMMAND : ["song", "video"]
+LYRICS_COMMAND : ["lyrics"]
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+#       ADMIN COMMANDS
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+AUTH_COMMAND : ["auth"]
+UNAUTH_COMMAND : ["unauth"]
+AUTHUSERS_COMMAND : ["authusers"]
+PAUSE_COMMAND : ["pause", "cpause"]
+RESUME_COMMAND : ["resume", "cresume"]
+MUTE_COMMAND : ["mute", "cmute"]
+UNMUTE_COMMAND : ["unmute", "cunmute"]
+STOP_COMMAND : ["stop", "end", "cstop", "cend"]
+SKIP_COMMAND : ["skip", "cskip"]
+SHUFFLE_COMMAND : ["shuffle", "cshuffle"]
+LOOP_COMMAND : ["loop", "cloop"]
+SEEK_COMMAND : ["seek", "cseek", "seekback", "cseekback"]
+RESTART_COMMAND : ["restart"]
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+#       SUDO COMMANDS
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ADDSUDO_COMMAND : ["addsudo"]
+DELSUDO_COMMAND : ["delsudo"]
+SUDOUSERS_COMMAND : ["sudolist"]
+BROADCAST_COMMAND : ["broadcast"]
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+#       BLACKLIST COMMANDS
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+BLACKLISTCHAT_COMMAND : ["blacklistchat"]
+WHITELISTCHAT_COMMAND : ["whitelistchat"]
+BLACKLISTEDCHAT_COMMAND : ["blacklistedchat"]
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+#       VIDEO COMMANDS
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+VIDEOLIMIT_COMMAND : ["set_video_limit"]
+VIDEOMODE_COMMAND : ["videomode"]
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+#      MAINTENANCE COMMANDS
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+MAINTENANCE_COMMAND : ["maintenance"]
+LOGGER_COMMAND : ["logger"]
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+#        HEROKU COMMANDS
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+GETLOG_COMMAND : ["get_log"]
+GETVAR_COMMAND : ["get_var"]
+DELVAR_COMMAND : ["del_var"]
+SETVAR_COMMAND : ["set_var"]
+USAGE_COMMAND : ["usage"]
+VARS_COMMAND : ["vars", "config"]
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+#         BOT CONTROL
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+UPDATE_COMMAND : ["update"]
+REBOOT_COMMAND : ["reboot"]
+AUTOEND_COMMAND : ["autoend"]
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+#       PRIVATE BOT MODE
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+AUTHORIZE_COMMAND : ["authorize"]
+UNAUTHORIZE_COMMAND : ["unauthorize"]
+AUTHORIZED_COMMAND : ["authorized"]
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+#       BLOCK COMMANDS
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+BLOCK_COMMAND : ["block"]
+UNBLOCK_COMMAND : ["unblock"]
+BLOCKED_COMMAND : ["blockedusers"]
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+#         MISC COMMANDS
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SPEEDTEST_COMMAND : ["speedtest"]
+ACTIVEVC_COMMAND : ["activevoice"]
+ACTIVEVIDEO_COMMAND : ["activevideo"]
+GBAN_COMMAND : ["gban"]
+UNGBAN_COMMAND : ["ungban"]
+GBANNED_COMMAND : ["gbannedusers"]
